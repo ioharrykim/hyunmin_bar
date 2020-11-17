@@ -90,10 +90,10 @@ nav {
     font-weight: 300;
     margin-right: 203px;
 }
-.menus .p1:hover {
+/* .menus .p1:hover {
     background-color: #08B681;
     color: #404040;
-}
+} */
 
     /* SMVIEW */
 .menus .p2 {
@@ -123,10 +123,10 @@ nav {
     font-size: 24px;
     font-weight: 400;
 }
-.menus .p2:hover {
+/* .menus .p2:hover {
     background-color: #FDD9DC;
     color: #ffffff;
-}
+} */
 
     /* A STAR IS BORN */
 .menus .p3 {
@@ -152,10 +152,10 @@ nav {
     font-weight: 300;
     margin-right: 203px;
 }
-.menus .p3:hover {
+/* .menus .p3:hover {
     background-color: #1b1b1b;
     color: #DBA731;
-}
+} */
 
     /* CHUNGMI-DONG */
 .menus .p4 {
@@ -182,10 +182,10 @@ nav {
     font-weight: 300;
     margin-right: 203px;
 }
-.menus .p4:hover {
+/* .menus .p4:hover {
     background-color: #1FAFFF;
     color: #ffc000;
-}
+} */
 
     /* IOHYUNMINKIM */
 .menus .p5 {
@@ -215,10 +215,10 @@ nav {
     font-size: 24px;
     font-weight: 400;
 }
-.menus .p5:hover {
+/* .menus .p5:hover {
     background-color: #DADADA;
     color: #277043;
-}
+} */
 
     /* STUDIO DRAGON */
 .menus .p6 {
@@ -248,10 +248,10 @@ nav {
     font-size: 24px;
     font-weight: 400;
 }
-.menus .p6:hover {
+/* .menus .p6:hover {
     background-color: #212322;
     color: #A6192E;
-}
+} */
 
     /* ARTWORKS */
 .menus .p7 {
@@ -277,10 +277,10 @@ nav {
     font-weight: 300;
     margin-right: 203px;
 }
-.menus .p7:hover {
+/* .menus .p7:hover {
     background-color: #5018e9;
     color: #fc8ce3;
-}
+} */
 
 /* END-LINE */
 .line-container {

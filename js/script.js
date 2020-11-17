@@ -184,6 +184,94 @@ $(".images-container").mouseout(function(){
     });
 
 
+    /* 프로젝트 마우스 호버 */ 
+    $(".p1").mouseenter(function(){
+        $(".p1").animate({
+            backgroundColor: "#08B681",
+            color: "#404040"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p1").mouseleave(function(){
+        $(".p1").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p2").mouseenter(function(){
+        $(".p2").animate({
+            backgroundColor: "#FDD9DC",
+            color: "#ffffff"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p2").mouseleave(function(){
+        $(".p2").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p3").mouseenter(function(){
+        $(".p3").animate({
+            backgroundColor: "#1b1b1b",
+            color: "#DBA731"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p3").mouseleave(function(){
+        $(".p3").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p4").mouseenter(function(){
+        $(".p4").animate({
+            backgroundColor: "#1FAFFF",
+            color: "#ffc000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p4").mouseleave(function(){
+        $(".p4").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p5").mouseenter(function(){
+        $(".p5").animate({
+            backgroundColor: "#DADADA",
+            color: "#277043"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p5").mouseleave(function(){
+        $(".p5").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p6").mouseenter(function(){
+        $(".p6").animate({
+            backgroundColor: "#212322",
+            color: "#A6192E"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p6").mouseleave(function(){
+        $(".p6").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p7").mouseenter(function(){
+        $(".p7").animate({
+            backgroundColor: "#5018e9",
+            color: "#fc8ce3"
+        }, 500, "easeInOutQuad");
+    });
+    $(".p7").mouseleave(function(){
+        $(".p7").animate({
+            backgroundColor: "none",
+            color: "#000000"
+        }, 500, "easeInOutQuad");
+    });
+
+
+
 
     /* 페이드인 아웃 */
 
