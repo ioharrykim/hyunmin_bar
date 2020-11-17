@@ -665,6 +665,10 @@ nav {
         font-weight: 300;
         margin-right: 20px;
     }
+    .menus .p2 p span {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
     .menus .p2:hover {
         background-color: #FDD9DC;
         color: #ffffff;
@@ -745,6 +749,10 @@ nav {
         font-weight: 300;
         margin-right: 20px;
     }
+    .menus .p5 p span {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
     .menus .p5:hover {
         background-color: #DADADA;
         color: #277043;
@@ -772,9 +780,13 @@ nav {
         font-weight: 300;
         margin-right: 20px;
     }
+    .menus .p6 p span {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
     .menus .p6:hover {
-        background-color: #E6B228;
-        color: #ffffff;
+        background-color: #212322;
+        color: #A6192E;
     }
     /* ARTWORKS */
     .menus .p7 {
