@@ -60,6 +60,9 @@ nav {
     top: 30vh;
     z-index: 9000;
     margin-left: 150px;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-delay: 4s;
 }
 .text-area h1 {
     font-family: turbinado-pro, sans-serif;
