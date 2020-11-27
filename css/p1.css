@@ -45,14 +45,14 @@ nav {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 .header-menu-links a {
     color: #fff;
 }
-.header-menu-links a:hover {
+/* .header-menu-links a:hover {
     color: #F0D738;
-}
+} */
 .header-menu-links a:last-child {
     margin-left: 60px;
 }
@@ -359,7 +359,6 @@ nav {
         display: flex;
         flex-direction: column;
         font-size: 0.9rem;
-        font-weight: 300;
         text-align: right;
         margin-top: 10px;
     }

@@ -7,8 +7,8 @@ $(document).ready(function(){
     var headerM = $(".header-menu-links a");
     var headerL = $(".header-wrap a");
     var cover = $(".cover");
-    var $menuP3 = $(".menu-p3 > a"),
-    $menuA3 = $(".menu-a3 > a");
+    var $menuP6 = $(".menu-p6 > a"),
+    $menuA6 = $(".menu-a6 > a");
 
     $(window).scroll(function(){
         var wScroll = $(this).scrollTop();
@@ -17,23 +17,23 @@ $(document).ready(function(){
             headerM.css({
                 "color" : "#000"
             });
-            $menuP3.mouseenter(function(){
-                $menuP3.stop().animate({
-                    color: "#DBA731"
+            $menuP6.mouseenter(function(){
+                $menuP6.stop().animate({
+                    color: "#A6192E"
                 }, 300, "easeInOutQuad");
             });
-            $menuP3.mouseleave(function(){
-                $menuP3.stop().animate({
+            $menuP6.mouseleave(function(){
+                $menuP6.stop().animate({
                     color: "#000000"
                 }, 300, "easeInOutQuad");
             });
-            $menuA3.mouseenter(function(){
-                $menuA3.stop().animate({
-                    color: "#DBA731"
+            $menuA6.mouseenter(function(){
+                $menuA6.stop().animate({
+                    color: "#A6192E"
                 }, 300, "easeInOutQuad");
             });
-            $menuA3.mouseleave(function(){
-                $menuA3.stop().animate({
+            $menuA6.mouseleave(function(){
+                $menuA6.stop().animate({
                     color: "#000000"
                 }, 300, "easeInOutQuad");
             });
@@ -42,26 +42,26 @@ $(document).ready(function(){
         if(wScroll >= cover.offset().top && wScroll <= page.offset().top) {
             console.log("아웃");
             headerM.css({
-                "color" : "#DBA731"
+                "color" : "#A6192E"
             });
-            $menuP3.mouseenter(function(){
-                $menuP3.stop().animate({
+            $menuP6.mouseenter(function(){
+                $menuP6.stop().animate({
                     color: "#ffffff"
                 }, 300, "easeInOutQuad");
             });
-            $menuP3.mouseleave(function(){
-                $menuP3.stop().animate({
-                    color: "#DBA731"
+            $menuP6.mouseleave(function(){
+                $menuP6.stop().animate({
+                    color: "#A6192E"
                 }, 300, "easeInOutQuad");
             });
-            $menuA3.mouseenter(function(){
-                $menuA3.stop().animate({
+            $menuA6.mouseenter(function(){
+                $menuA6.stop().animate({
                     color: "#ffffff"
                 }, 300, "easeInOutQuad");
             });
-            $menuA3.mouseleave(function(){
-                $menuA3.stop().animate({
-                    color: "#DBA731"
+            $menuA6.mouseleave(function(){
+                $menuA6.stop().animate({
+                    color: "#A6192E"
                 }, 300, "easeInOutQuad");
             });
             headerL.html("<img src='./images/logo_w.png' alt='logo_w'>");

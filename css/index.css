@@ -8,6 +8,7 @@ html {
     font-family: 'Poppins', 'Noto Sans KR', sans-serif;
     font-size: 18px;
     overflow-y: hidden;
+    cursor: url(../images/cursor.png), auto;
 }
 
 /* .container {
@@ -44,11 +45,11 @@ nav {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
-.header-menu-links a:hover {
+/* .header-menu-links a:hover {
     color: #F0D738;
-}
+} */
 .header-menu-links a:last-child {
     margin-left: 60px;
 }
@@ -102,7 +103,7 @@ nav {
     animation-iteration-count:infinite;
 }
 .images2 > div {
-    cursor: pointer;
+    cursor: url(../images/cursor_2.png), auto;
     margin: 163px 0;
 }
 .images2-1 {
@@ -117,7 +118,7 @@ nav {
     animation-iteration-count:infinite;
 }
 .images2-1 > div {
-    cursor: pointer;
+    cursor: url(../images/cursor_2.png), auto;
     margin: 163px 0;
 }
 @keyframes goUp {
@@ -139,7 +140,7 @@ nav {
     animation-iteration-count:infinite;
 }
 .images1 > div {
-    cursor: pointer;
+    cursor: url(../images/cursor_2.png), auto;
     margin: 163px 0;
 }
 .images1-1 {
@@ -154,7 +155,7 @@ nav {
     animation-iteration-count:infinite;
 }
 .images1-1 > div {
-    cursor: pointer;
+    cursor: url(../images/cursor_2.png), auto;
     margin: 163px 0;
 }
 
@@ -275,7 +276,6 @@ nav {
         display: flex;
         flex-direction: column;
         font-size: 0.9rem;
-        font-weight: 300;
         text-align: right;
         margin-top: 10px;
     }

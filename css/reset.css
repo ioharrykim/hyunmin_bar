@@ -45,8 +45,10 @@ table {
 a {
 	color: #000;
 	text-decoration: none;
+	cursor: url(../images/cursor_2.png), auto;
 }
 body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 html {
 	scroll-behavior: smooth;
+	cursor: url(../images/cursor.png), auto;
 }
