@@ -230,13 +230,45 @@ nav {
     font-weight: 600;
     font-size: 48px;
 }
-.footer .contact h2 {
+/* .footer .contact h2 {
     margin-left: 77px;
     font-weight: 300;
     font-size: 28px;
 }
 .footer .contact h2:last-child {
     margin-top: -30px;
+} */
+.footer .contact h2 {
+    margin-left: 77px;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: -30px;
+}
+.footer .contact img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: -4px;
+    margin-right: 12px;
+}
+.footer .contact h2:first-child {
+    margin-top: 20px;
+}
+/* .footer .contact h2:last-child {
+    margin-top: -30px;
+} */
+.footer .resume {
+    width: 320px;
+    height: 62px;
+    border: solid 3px #202020;
+    /* background-color: #202020; */
+    cursor: url(../images/cursor_2.png), auto;
+}
+.footer .resume h3 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 62px;
+    font-weight: 600;
+    color: #202020;
 }
 
 

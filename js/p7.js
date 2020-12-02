@@ -77,5 +77,13 @@ $(document).ready(function(){
         }, 2000, "easeInOutQuad")
     }, 2000);
 
+    /* 레이어 팝업 */
+    var $black = $(".black");
+    var $t1 = $(".t1");
+
+    $t1.click(function(){
+        $black.show();
+    });
+
 });
 })(jQuery);

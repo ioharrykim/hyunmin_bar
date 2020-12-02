@@ -48,8 +48,35 @@
               "opacity" : "100",
               "transform" : "translateY(-30vh)",
               "transition" : "all ease 1s 1s"
-          });
+            });
         }
+
+        // #f0d738
+    var $resumeB = $(".resume");
+    var $resumeT = $(".resume h3");
+
+    $resumeB.click(function(){
+        window.open("https://github.com/juventuslandia/hyunmin_bar/raw/main/resume_kimhyunmin.pdf");
+    });
+    $resumeB.mouseenter(function(){
+        $resumeB.stop().animate({
+            backgroundColor: "#f0d738",
+        }, 500, "easeInOutQuad");
+        $resumeT.stop().animate({
+            color: "#ffffff",
+        }, 500, "easeInOutQuad");
+    });
+    $resumeB.mouseleave(function(){
+        $resumeB.stop().animate({
+            backgroundColor: "#ffffff",
+        }, 500, "easeInOutQuad");
+        $resumeT.stop().animate({
+            color: "#202020",
+        }, 500, "easeInOutQuad");
+    });
+
+
+
       });
     });
 })(jQuery);

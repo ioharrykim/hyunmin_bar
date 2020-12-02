@@ -195,13 +195,26 @@ nav {
     font-weight: 600;
     font-size: 20px;
 }
+.footer .contact {
+    margin-top: -20px;
+}
 .footer .contact h2 {
     margin-left: 77px;
     font-weight: 300;
     font-size: 20px;
+    margin-top: -28px;
 }
-.footer .contact h2:last-child {
+/* .footer .contact h2:last-child {
     margin-top: -30px;
+} */
+.footer .contact img {
+    width: 26px;
+    height: 26px;
+    margin-bottom: -5px;
+    margin-right: 12px;
+}
+.footer .contact h2:first-child {
+    margin-top: 20px;
 }
 
 /* 1025 to 1540 LAPTOP */
