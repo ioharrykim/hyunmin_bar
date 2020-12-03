@@ -7,8 +7,8 @@ $(document).ready(function(){
     var headerM = $(".header-menu-links a");
     var headerL = $(".header-wrap a");
     var cover = $(".cover");
-    var $menuP4 = $(".menu-p4 > a"),
-        $menuA4 = $(".menu-a4 > a");
+    var $menuP7 = $(".menu-p7 > a"),
+        $menuA7 = $(".menu-a7 > a");
 
     $(window).scroll(function(){
         var wScroll = $(this).scrollTop();
@@ -17,23 +17,23 @@ $(document).ready(function(){
             headerM.css({
                 "color" : "#000"
             });
-            $menuP4.mouseenter(function(){
-                $menuP4.stop().animate({
+            $menuP7.mouseenter(function(){
+                $menuP7.stop().animate({
                     color: "#ffc000"
                 }, 300, "easeInOutQuad");
             });
-            $menuP4.mouseleave(function(){
-                $menuP4.stop().animate({
+            $menuP7.mouseleave(function(){
+                $menuP7.stop().animate({
                     color: "#000000"
                 }, 300, "easeInOutQuad");
             });
-            $menuA4.mouseenter(function(){
-                $menuA4.stop().animate({
+            $menuA7.mouseenter(function(){
+                $menuA7.stop().animate({
                     color: "#ffc000"
                 }, 300, "easeInOutQuad");
             });
-            $menuA4.mouseleave(function(){
-                $menuA4.stop().animate({
+            $menuA7.mouseleave(function(){
+                $menuA7.stop().animate({
                     color: "#000000"
                 }, 300, "easeInOutQuad");
             });
@@ -44,23 +44,23 @@ $(document).ready(function(){
             headerM.css({
                 "color" : "#fff"
             });
-            $menuP4.mouseenter(function(){
-                $menuP4.stop().animate({
+            $menuP7.mouseenter(function(){
+                $menuP7.stop().animate({
                     color: "#ffc000"
                 }, 300, "easeInOutQuad");
             });
-            $menuP4.mouseleave(function(){
-                $menuP4.stop().animate({
+            $menuP7.mouseleave(function(){
+                $menuP7.stop().animate({
                     color: "#ffffff"
                 }, 300, "easeInOutQuad");
             });
-            $menuA4.mouseenter(function(){
-                $menuA4.stop().animate({
+            $menuA7.mouseenter(function(){
+                $menuA7.stop().animate({
                     color: "#ffc000"
                 }, 300, "easeInOutQuad");
             });
-            $menuA4.mouseleave(function(){
-                $menuA4.stop().animate({
+            $menuA7.mouseleave(function(){
+                $menuA7.stop().animate({
                     color: "#ffffff"
                 }, 300, "easeInOutQuad");
             });
@@ -78,12 +78,71 @@ $(document).ready(function(){
     }, 2000);
 
     /* 레이어 팝업 */
-    var $black = $(".black");
+    var $blackA1 = $(".black.a1");
+    var $blackA2 = $(".black.a2");
+    var $blackA3 = $(".black.a3");
+    var $blackA4 = $(".black.a4");
+    var $blackA5 = $(".black.a5");
+    var $blackA6 = $(".black.a6");
+    var $blackA7 = $(".black.a7");
+    var $blackA8 = $(".black.a8");
+    var $blackA9 = $(".black.a9");
+    var $blackA10 = $(".black.a10");
     var $t1 = $(".t1");
+    var $t2 = $(".t2");
+    var $t3 = $(".t3");
+    var $t4 = $(".t4");
+    var $t5 = $(".t5");
+    var $t6 = $(".t6");
+    var $t7 = $(".t7");
+    var $t8 = $(".t8");
+    var $t9 = $(".t9");
+    var $t10 = $(".t10");
+    var $closeBtn = $(".close-button");
 
     $t1.click(function(){
-        $black.show();
+        $blackA1.show();
     });
+    $t2.click(function(){
+        $blackA2.show();
+    });
+    $t3.click(function(){
+        $blackA3.show();
+    });
+    $t4.click(function(){
+        $blackA4.show();
+    });
+    $t5.click(function(){
+        $blackA5.show();
+    });
+    $t6.click(function(){
+        $blackA6.show();
+    });
+    $t7.click(function(){
+        $blackA7.show();
+    });
+    $t8.click(function(){
+        $blackA8.show();
+    });
+    $t9.click(function(){
+        $blackA9.show();
+    });
+    $t10.click(function(){
+        $blackA10.show();
+    });
+    $closeBtn.click(function(){
+        $blackA1.hide();
+        $blackA2.hide();
+        $blackA3.hide();
+        $blackA4.hide();
+        $blackA5.hide();
+        $blackA6.hide();
+        $blackA7.hide();
+        $blackA8.hide();
+        $blackA9.hide();
+        $blackA10.hide();
+    });
+
 
 });
 })(jQuery);

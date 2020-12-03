@@ -163,6 +163,30 @@ $menuA6.mouseleave(function(){
         color: "#A6192E"
     }, 300, "easeInOutQuad");
 });
+// p7 - Artworks
+var $menuP7 = $(".menu-p7 > a"),
+    $menuA7 = $(".menu-a7 > a");
+
+$menuP7.mouseenter(function(){
+    $menuP7.stop().animate({
+        color: "#ffc000"
+    }, 300, "easeInOutQuad");
+});
+$menuP7.mouseleave(function(){
+    $menuP7.stop().animate({
+        color: "#ffffff"
+    }, 300, "easeInOutQuad");
+});
+$menuA7.mouseenter(function(){
+    $menuA7.stop().animate({
+        color: "#ffc000"
+    }, 300, "easeInOutQuad");
+});
+$menuA7.mouseleave(function(){
+    $menuA7.stop().animate({
+        color: "#ffffff"
+    }, 300, "easeInOutQuad");
+});
 
 /* 이미지 이동 */ 
 setTimeout(function(){
