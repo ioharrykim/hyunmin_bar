@@ -88,6 +88,16 @@ $(document).ready(function(){
     var $blackA8 = $(".black.a8");
     var $blackA9 = $(".black.a9");
     var $blackA10 = $(".black.a10");
+    var $w1 = $(".w1");
+    var $w2 = $(".w2");
+    var $w3 = $(".w3");
+    var $w4 = $(".w4");
+    var $w5 = $(".w5");
+    var $w6 = $(".w6");
+    var $w7 = $(".w7");
+    var $w8 = $(".w8");
+    var $w9 = $(".w9");
+    var $w10 = $(".w10");
     var $t1 = $(".t1");
     var $t2 = $(".t2");
     var $t3 = $(".t3");
@@ -130,6 +140,36 @@ $(document).ready(function(){
     $t10.click(function(){
         $blackA10.show();
     });
+    $w1.click(function(){
+        $blackA1.show();
+    });
+    $w2.click(function(){
+        $blackA2.show();
+    });
+    $w3.click(function(){
+        $blackA3.show();
+    });
+    $w4.click(function(){
+        $blackA4.show();
+    });
+    $w5.click(function(){
+        $blackA5.show();
+    });
+    $w6.click(function(){
+        $blackA6.show();
+    });
+    $w7.click(function(){
+        $blackA7.show();
+    });
+    $w8.click(function(){
+        $blackA8.show();
+    });
+    $w9.click(function(){
+        $blackA9.show();
+    });
+    $w10.click(function(){
+        $blackA10.show();
+    });
     $closeBtn.click(function(){
         $blackA1.hide();
         $blackA2.hide();
@@ -141,6 +181,16 @@ $(document).ready(function(){
         $blackA8.hide();
         $blackA9.hide();
         $blackA10.hide();
+    });
+    $closeBtn.mouseenter(function(){
+        $closeBtn.stop().animate({
+            backgroundColor: "#e7cf3c"
+        }, 300, "easeInOutQuad");
+    });
+    $closeBtn.mouseleave(function(){
+        $closeBtn.stop().animate({
+            backgroundColor: "#000000"
+        }, 300, "easeInOutQuad");
     });
 
 

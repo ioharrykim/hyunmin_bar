@@ -446,9 +446,6 @@ $(".images-container").mouseout(function(){
         }, 500, "easeInOutQuad");
     });
 
-
-
-
     /* 페이드인 아웃 */
 
     function coverFadeIn(){
@@ -463,6 +460,114 @@ $(".images-container").mouseout(function(){
         coverFadeIn();
     }
     titleFadeToggle();
+
+    /* 프로젝트 이동 */
+    /* 로딩 */
+    function delayLink1() {
+        setTimeout(function(){
+            location.href = "./p1.html";
+        },1000);
+    }
+    function delayLink2() {
+        setTimeout(function(){
+            location.href = "./p2.html";
+        },1000);
+    }
+    function delayLink3() {
+        setTimeout(function(){
+            location.href = "./p3.html";
+        },1000);
+    }
+    function delayLink4() {
+        setTimeout(function(){
+            location.href = "./p4.html";
+        },1000);
+    }
+    function delayLink5() {
+        setTimeout(function(){
+            location.href = "./p5.html";
+        },1000);
+    }
+    function delayLink6() {
+        setTimeout(function(){
+            location.href = "./p6.html";
+        },1000);
+    }
+    function delayLink7() {
+        setTimeout(function(){
+            location.href = "./p7.html";
+        },1000);
+    }
+    $(".pp1").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p1-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink1();
+    });
+    $(".pp2").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p2-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink2();
+    });
+    $(".pp3").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p3-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink3();
+    });
+    $(".pp4").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p4-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink4();
+    });
+    $(".pp5").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p5-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink5();
+    });
+    $(".pp6").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p6-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink6();
+    });
+    $(".pp7").click(function(event){
+        event.preventDefault();
+        $(".header").fadeOut(500);
+        $(".p7-loading").css({
+            "opacity" : "100",
+            "transform" : "scaleY(200)",
+            "transition" : "all ease-out 1s"
+        });
+        delayLink7();
+    });
     
     
     
