@@ -175,14 +175,30 @@ nav {
     opacity: 100;
 }
 .index-loading h1 {
-    font-family: turbinado-pro, sans-serif;
-    font-size: 5rem;
-    letter-spacing: 1px;
+    /* font-family: turbinado-pro, sans-serif; */
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -2px;
     text-align: center;
     line-height: 100vh;
 }
 .index-loading h1 span {
     color: #f0d738;
+    font-weight: 900;
+}
+.stroke-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.load-stroke {
+    width: 0vw;
+    height: 5px;
+    background-color: #000;
+    margin-left: 10px;
+    margin-top: -10px;
 }
 .load-pc {
     display: block;
@@ -291,11 +307,15 @@ nav {
     
     /* LOADING */
     .index-loading h1 {
-        font-family: turbinado-pro, sans-serif;
-        font-size: 3rem;
-        letter-spacing: 1px;
+        /* font-family: turbinado-pro, sans-serif; */
+        font-size: 2rem;
+        letter-spacing: -2px;
         text-align: center;
         line-height: 100vh;
+    }
+    .load-stroke {
+        height: 3px;
+        margin-top: -8px;
     }
     /* FOOTER */
     .footer {
@@ -351,6 +371,7 @@ nav {
         color: #AAAAAA;
         text-align: center;
     }
+    
 
     /* IMAGE-CONTAINERS */
     .images-container {
@@ -371,14 +392,7 @@ nav {
     .images2-1 {
         right: 200px;
     }
-    /* LOADING */
-    .index-loading h1 {
-        font-family: turbinado-pro, sans-serif;
-        font-size: 2rem;
-        letter-spacing: 1px;
-        text-align: center;
-        line-height: 100vh;
-    }
+    
 
     /* FOOTER */
     .footer {
@@ -400,14 +414,25 @@ nav {
         margin-top: -30px;
     }
 
+    /* LOADING */
     .load-pc {
         display: none;
     }
     .load-m {
         display: block;
     }
+    .stroke-wrap {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .load-stroke {
+        margin: 50px auto;
+        height: 3px;
+    }
     .index-loading h1 {
-        font-size: 3.5rem;
+        font-size: 2rem;
+        letter-spacing: -2px;
         line-height: 1;
         text-align: center;
         margin: 40vh 20px 0 20px;

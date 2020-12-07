@@ -14,6 +14,9 @@ setTimeout(function(){
 
 
 /* WELCOME */
+$(".load-stroke").stop().animate({
+    width: "20vw"
+}, 4000, "easeInOutCubic");
 setTimeout(function(){
     $(".text-area").fadeIn();
 },5000);
@@ -22,6 +25,7 @@ setTimeout(function(){
         opacity: 1
     }, 500, "easeInOutQuad");
 },5000);
+
 
 /* MENU */
 var $menuP = $(".menu-p > a"),
