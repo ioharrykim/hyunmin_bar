@@ -568,6 +568,265 @@ $(".images-container").mouseout(function(){
         });
         delayLink7();
     });
+
+
+    $(".next.pp6").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp6").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp1").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp1").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp2").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp2").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp3").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp3").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp5").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp5").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp7").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp7").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp4").mouseenter(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".next.pp4").mouseleave(function(event){
+        event.preventDefault();
+        $(".ne").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".next-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    
+
+
+
+
+    $(".prev.pp7").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp7").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp4").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp4").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp6").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp6").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp1").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp1").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp2").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp2").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp3").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp3").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp5").mouseenter(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "50px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuad");
+    });
+    $(".prev.pp5").mouseleave(function(event){
+        event.preventDefault();
+        $(".pr").stop().animate({
+            width: "0px"
+        }, 500, "easeInOutQuad");
+        $(".prev-title").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuad");
+    });
     
     
     
