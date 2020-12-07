@@ -193,6 +193,155 @@ $(document).ready(function(){
         }, 300, "easeInOutQuad");
     });
 
+    /* 이미지 넘기기 */
+    $(".prev-btn").mouseenter(function(){
+        $(".prev-btn").stop().animate({
+            backgroundColor: "#e7cf3c"
+        }, 300, "easeInOutQuad");
+    });
+    $(".prev-btn").mouseleave(function(){
+        $(".prev-btn").stop().animate({
+            backgroundColor: "#rgba(255, 255, 255, 0.4)"
+        }, 300, "easeInOutQuad");
+    });
+    $(".next-btn").mouseenter(function(){
+        $(".next-btn").stop().animate({
+            backgroundColor: "#e7cf3c"
+        }, 300, "easeInOutQuad");
+    });
+    $(".next-btn").mouseleave(function(){
+        $(".next-btn").stop().animate({
+            backgroundColor: "#rgba(255, 255, 255, 0.4)"
+        }, 300, "easeInOutQuad");
+    });
+
+
+    /* a2 청미동 */
+    $(".next-btn.a2-n1").click(function(event){
+        $(".next-btn.a2-n1").css({"display":"none"});
+        $(".next-btn.a2-n2").css({"display":"flex"});
+        $(".a2-1").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a2-2").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a2-n2").click(function(event){
+        $(".next-btn.a2-n2").css({"display":"none"});
+        $(".next-btn.a2-n1").css({"display":"flex"});
+        $(".a2-2").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a2-1").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    /* a7 내 안의 또 다른 나 */
+    $(".next-btn.a7-n1").click(function(event){
+        $(".next-btn.a7-n1").css({"display":"none"});
+        $(".next-btn.a7-n2").css({"display":"flex"});
+        $(".a7-1").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a7-2").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a7-n2").click(function(event){
+        $(".next-btn.a7-n2").css({"display":"none"});
+        $(".next-btn.a7-n1").css({"display":"flex"});
+        $(".a7-2").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a7-1").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    /* a10 9Ennergram */
+    $(".next-btn.a10-n1").click(function(event){
+        $(".next-btn.a10-n1").css({"display":"none"});
+        $(".next-btn.a10-n2").css({"display":"flex"});
+        $(".a10-1").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a10-2").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a10-n2").click(function(event){
+        $(".next-btn.a10-n2").css({"display":"none"});
+        $(".next-btn.a10-n1").css({"display":"flex"});
+        $(".a10-2").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a10-1").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    /* a8 World Champions Passport */
+    $(".next-btn.a8-n1").click(function(event){
+        $(".next-btn.a8-n1").css({"display":"none"});
+        $(".next-btn.a8-n2").css({"display":"flex"});
+        $(".a8-1").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-2").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a8-n2").click(function(event){
+        $(".next-btn.a8-n2").css({"display":"none"});
+        $(".next-btn.a8-n3").css({"display":"flex"});
+        $(".a8-2").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-3").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a8-n3").click(function(event){
+        $(".next-btn.a8-n3").css({"display":"none"});
+        $(".next-btn.a8-n4").css({"display":"flex"});
+        $(".a8-3").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-4").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a8-n4").click(function(event){
+        $(".next-btn.a8-n4").css({"display":"none"});
+        $(".next-btn.a8-n5").css({"display":"flex"});
+        $(".a8-4").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-5").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a8-n5").click(function(event){
+        $(".next-btn.a8-n5").css({"display":"none"});
+        $(".next-btn.a8-n6").css({"display":"flex"});
+        $(".a8-5").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-6").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    $(".next-btn.a8-n6").click(function(event){
+        $(".next-btn.a8-n6").css({"display":"none"});
+        $(".next-btn.a8-n1").css({"display":"flex"});
+        $(".a8-6").stop().animate({
+            opacity: 0
+        }, 500, "easeInOutQuint");
+        $(".a8-1").stop().animate({
+            opacity: 1
+        }, 500, "easeInOutQuint");
+    });
+    
+
 
 });
 })(jQuery);

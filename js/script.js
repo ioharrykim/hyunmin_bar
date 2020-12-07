@@ -696,11 +696,6 @@ $(".images-container").mouseout(function(){
             opacity: 0
         }, 500, "easeInOutQuad");
     });
-    
-
-
-
-
     $(".prev.pp7").mouseenter(function(event){
         event.preventDefault();
         $(".pr").stop().animate({
@@ -825,6 +820,20 @@ $(".images-container").mouseout(function(){
         }, 500, "easeInOutQuad");
         $(".prev-title").stop().animate({
             opacity: 0
+        }, 500, "easeInOutQuad");
+    });
+
+    /* VISIT WEB HOVER */
+    $(".sum-visit").mouseenter(function(event){
+        event.preventDefault();
+        $(".sum-visit").stop().animate({
+            backgroundColor: "#f0d738"
+        }, 500, "easeInOutQuad");
+    });
+    $(".sum-visit").mouseleave(function(event){
+        event.preventDefault();
+        $(".sum-visit").stop().animate({
+            backgroundColor: "#fff"
         }, 500, "easeInOutQuad");
     });
     

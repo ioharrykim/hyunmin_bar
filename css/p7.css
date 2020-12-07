@@ -318,9 +318,126 @@ figure.twrap.hover:after {
 }
 
 /* 가리는 이미지들 */
-.a1-2 {
+/* 버튼 */
+.btnarea {
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.prev-btn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(../images/cursor_2.png), auto;
+}
+.next-btn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 100px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(../images/cursor_2.png), auto;
+}
+
+/* 이미지 트랜지션 */
+/* a2 청미동 */
+.a2-p1 {
+    opacity: 0;
+}
+.a2-p2 {
     display: none;
 }
+.a2-n2 {
+    display: none;
+}
+.a2-1 {
+    opacity: 1;
+}
+.a2-2 {
+    opacity: 0;
+}
+/* a7 내 안의 또 다른 나 */
+.a7-p1 {
+    opacity: 0;
+}
+.a7-p2 {
+    display: none;
+}
+.a7-n2 {
+    display: none;
+}
+.a7-1 {
+    opacity: 1;
+}
+.a7-2 {
+    opacity: 0;
+}
+/* a10 9Ennergram */
+.a10-p1 {
+    opacity: 0;
+}
+.a10-p2 {
+    display: none;
+}
+.a10-n2 {
+    display: none;
+}
+.a10-1 {
+    opacity: 1;
+}
+.a10-2 {
+    opacity: 0;
+}
+/* a8 World Champions Passport */
+.a8-p1 {
+    opacity: 0;
+}
+.a8-p2 {
+    display: none;
+}
+.a8-n2 {
+    display: none;
+}
+.a8-n3 {
+    display: none;
+}
+.a8-n4 {
+    display: none;
+}
+.a8-n5 {
+    display: none;
+}
+.a8-n6 {
+    display: none;
+}
+.a8-1 {
+    opacity: 1;
+}
+.a8-2 {
+    opacity: 0;
+}
+.a8-3 {
+    opacity: 0;
+}
+.a8-4 {
+    opacity: 0;
+}
+.a8-5 {
+    opacity: 0;
+}
+.a8-6 {
+    opacity: 0;
+}
+
 
 
 .black {
@@ -331,7 +448,7 @@ figure.twrap.hover:after {
     height: 100%;
     display: none;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .titlearea {
     width: 300px;
