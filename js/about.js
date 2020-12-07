@@ -46,7 +46,7 @@
             })
             $(".footer").css({
               "opacity" : "100",
-              "transform" : "translateY(-30vh)",
+              "transform" : "translateY(-44vh)",
               "transition" : "all ease 1s 1s"
             });
         }

@@ -187,7 +187,7 @@ nav {
     position: relative;
     display: flex;
     margin-left: 150px;
-    padding-top: 500px;
+    padding-top: 40vh;
     color: #AAAAAA;
     z-index: 1000;
 }
