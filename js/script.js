@@ -17,6 +17,11 @@ setTimeout(function(){
 setTimeout(function(){
     $(".text-area").fadeIn();
 },5000);
+setTimeout(function(){
+    $(".footer.index-footer").stop().animate({
+        opacity: 1
+    }, 500, "easeInOutQuad");
+},5000);
 
 /* MENU */
 var $menuP = $(".menu-p > a"),

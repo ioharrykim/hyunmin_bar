@@ -246,8 +246,8 @@ figure.twrap.hover:after {
     box-shadow: 0px 0px 60px 10px rgba(0, 0, 0, 0.25);
     z-index: 9999;
     background-color: #fff;
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     max-width: 80%;
 }
 .wrap-flex1 {
@@ -644,6 +644,10 @@ figure.twrap.hover:after {
     background-color: #000000;
 }
 
+.responsive-m {
+    display: none;
+}
+
 
 
 
@@ -802,26 +806,23 @@ figure.twrap.hover:after {
         bottom: 20px;
     }
     /* PAGE1 */
-    .page1 {
-        width: 100%;
+    .thumb-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px auto;
     }
-    .image-1 .p1t {
-        padding-right: 50px;
+    .thumbline {
+        display: flex;
     }
-    .image-2 .p1t {
-        padding-left: 50px;
+    .thumbline img {
+        cursor: url(../images/cursor_2.png), auto;
+        width: 500px;
+        height: 413px;
+        margin: 15px;
     }
-    .image-3 .p1t {
-        padding-right: 50px;
-    }
-    .image-4 .p1t {
-        padding-left: 50px;
-    }
-    .image-5 .sum-area {
-        margin-right: 50px;
-    }
-    .sum {
-        margin-top: 50px;
+    .sumarea p {
+        font-size: 0.8rem;
     }
     /* END-LINE */ 
     .end-line {
@@ -851,47 +852,23 @@ figure.twrap.hover:after {
     .page1 {
         width: 100%;
     }
-    .page1 img {
-        width: 100%;
-        margin: 50px 0;
+    .thumb-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px auto;
     }
-    .p1t {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
+    .thumbline {
+        display: flex;
     }
-    .image-1 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
+    .thumbline img {
+        cursor: url(../images/cursor_2.png), auto;
+        width: 350px;
+        height: 289px;
+        margin: 15px;
     }
-    .image-2 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-3 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-4 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-5 {
-        display: block;
-    }
-    .image-5 img {
-        width: 100%;
-    }
-    .sum-area {
-        width: 35em;
-        margin-left: 70px;
-    }
-    .sum {
-        margin-top: 50px;
+    .sumarea p {
+        font-size: 0.8rem;
     }
     /* END-LINE */ 
     .end-line {
@@ -937,6 +914,9 @@ figure.twrap.hover:after {
     .cover-logo img {
         width: 100%;
     }
+    .cover-blend img {
+        display: none;
+    }
     .cover-title {
         bottom: 50px;
     }
@@ -950,82 +930,61 @@ figure.twrap.hover:after {
         font-size: 1rem;
         color: #fff;
     }
+    /* 아트워크 가리기 */
+    .popup {
+        display: none;
+    }
+    .thumb-flex {
+        display: none;
+    }
     /* PAGE1 */
     .page1 {
         width: 100%;
         margin: 0 auto;
     }
-    .page1 img {
-        width: 100%;
-        margin: 50px 0;
-    }
-    .p1t {
-        width: 90%;
-        margin: 0 auto;
-        font-size: 0.7rem;
-    }
-    .image-1 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-2 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-3 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-4 {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .image-5 {
-        display: block;
-    }
-    .image-5 img {
+    .thumb-flex {
+        /* display: block; */
         width: 100%;
     }
-    .sum-area {
-        width: 90%;
-        padding: 50px 20px 0px 20px;
-    }
-    .sum-title h2 {
-        font-size: 1.2rem;
-        font-weight: 900;
-    }
-    .sum-title h2 span {
-        margin-left: 20px;
-        font-size: 0.7rem;
-        font-weight: 400;
-        color: #AAAAAA;
-    }
-    .sum-title h3 {
-        font-size: 0.7rem;
-        font-weight: 400;
-        color: #AAAAAA;
-    }
-    .sum-line {
+    .thumbline {
         display: block;
-        background-color: #000000;
-        width: 80vw;
-        height: 2px;
-        margin: 5px 0;
     }
-    .sum {
-        margin-top: 10px;
+    .thumbline img {
+        cursor: url(../images/cursor_2.png), auto;
+        width: 400px;
+        height: 330px;
+        margin: 10px 0;
     }
-    .sum p {
-        font-size: 0.9rem;
+    .sumarea p {
+        font-size: 0.8rem;
     }
-    .sum p span {
-        font-size: 0.7rem;
-        color: #AAAAAA;
+    .page0 {
+        height: 50px;
     }
+    /* 모바일 */
+    .responsive-m {
+        display: block;
+    }
+    .m-sum {
+        text-align: center;
+    }
+    .m-sum h4 {
+        font-size: 0.8rem;
+    }
+    .m-images img {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .m-images h5 {
+        text-align: center;
+        margin: 30px 20px 0 30px;
+    }
+    .m-images p {
+        text-align: left;
+        margin: 20px 20px 100px 20px;
+    }
+    
+
     /* END-LINE */
     .line-container {
         width: 100%;
@@ -1033,7 +992,7 @@ figure.twrap.hover:after {
     .end-line {
         display: block;
         text-align: center;
-        margin: 100px auto 0 auto;
+        margin: 150px auto 0 auto;
         width: 80vw;
         height: 2px;
         background-color: #000000;
@@ -1049,13 +1008,20 @@ figure.twrap.hover:after {
     .footer .name h2 {
         color: #000000;
         font-weight: 600;
-        font-size: 1.6rem;
+        font-size: 1rem;
         line-height: 1.2;
     }
+    .footer .contact img {
+        width: 20px;
+        height: 20px;
+    }
     .footer .contact h2 {
-        margin-left: 20px;
+        margin-left: 5px;
         font-weight: 300;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .footer .contact h2:first-child {
+        margin-top: 0px;
     }
 } 
     

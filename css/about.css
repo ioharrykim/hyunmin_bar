@@ -347,19 +347,35 @@ nav {
         display: flex;
         margin: 0 20px;
         color: #AAAAAA;
-        margin-top: 90px;
-        margin-bottom: 90px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         justify-content: space-between;
     }
     .footer .name h2 {
         color: #000000;
         font-weight: 600;
-        font-size: 1.6rem;
+        font-size: 1rem;
         line-height: 1.2;
     }
+    .footer .contact img {
+        width: 20px;
+        height: 20px;
+    }
     .footer .contact h2 {
-        margin-left: 20px;
+        margin-left: 5px;
         font-weight: 300;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .footer .contact h2:first-child {
+        margin-top: 0px;
+    }
+    .footer .resume {
+        width: 113px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer .resume h3 {
+        font-size: 1rem;
+        line-height: 30px;
     }
 } 
